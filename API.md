@@ -4,7 +4,7 @@
 
 ### ZipLayer <a name="cdk-lambda-layer-zip.ZipLayer" id="cdklambdalayerzipziplayer"></a>
 
-An AWS Lambda layer that includes the zip.
+An AWS Lambda layer that includes the tar gzip 7z.
 
 #### Initializers <a name="cdk-lambda-layer-zip.ZipLayer.Initializer" id="cdklambdalayerzipziplayerinitializer"></a>
 
