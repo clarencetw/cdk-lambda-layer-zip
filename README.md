@@ -9,14 +9,14 @@ Usage:
 
 ```ts
 // ZipLayer bundles the tar gzip 7z in a lambda layer
-import { ZipLayer } from 'cdk-lambda-layer-curl';
+import { ZipLayer } from 'cdk-lambda-layer-zip';
 
 declare const fn: lambda.Function;
 fn.addLayers(new ZipLayer(this, 'ZipLayer'));
 ```
 
 ```ts
-import { ZipLayer } from 'cdk-lambda-layer-curl'
+import { ZipLayer } from 'cdk-lambda-layer-zip'
 import * as lambda from 'aws-cdk-lib/aws-lambda'
 
 new lambda.Function(this, 'MyLambda', {
