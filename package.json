@@ -1,5 +1,6 @@
 {
   "name": "cdk-lambda-layer-zip",
+  "description": "Lambda Layer for tar gz 7z",
   "repository": {
     "type": "git",
     "url": "https://github.com/clarencetw/cdk-lambda-layer-zip.git"
