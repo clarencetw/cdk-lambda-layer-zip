@@ -6,6 +6,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: 'cdk-lambda-layer-zip',
   repositoryUrl: 'https://github.com/clarencetw/cdk-lambda-layer-zip.git',
+  description: 'Lambda Layer for tar gz 7z',
   keywords: ['aws', 'cdk', 'tar', 'gz', '7z'],
 
   projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
