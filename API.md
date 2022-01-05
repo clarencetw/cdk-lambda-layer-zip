@@ -16,14 +16,14 @@ new ZipLayer(scope: Construct, id: string)
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| [`scope`](#cdklambdalayerzipziplayerparameterscope)<span title="Required">*</span> | [`constructs.Construct`](#constructs.Construct) | *No description.* |
+| [`scope`](#cdklambdalayerzipziplayerparameterscope)<span title="Required">*</span> | [`@aws-cdk/core.Construct`](#@aws-cdk/core.Construct) | *No description.* |
 | [`id`](#cdklambdalayerzipziplayerparameterid)<span title="Required">*</span> | `string` | *No description.* |
 
 ---
 
 ##### `scope`<sup>Required</sup> <a name="cdk-lambda-layer-zip.ZipLayer.parameter.scope" id="cdklambdalayerzipziplayerparameterscope"></a>
 
-- *Type:* [`constructs.Construct`](#constructs.Construct)
+- *Type:* [`@aws-cdk/core.Construct`](#@aws-cdk/core.Construct)
 
 ---
 
