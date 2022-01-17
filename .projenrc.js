@@ -26,7 +26,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
     '@aws-cdk/aws-lambda',
   ],
 
-  projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
   autoApproveOptions: {
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['clarencetw'],
