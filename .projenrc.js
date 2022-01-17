@@ -2,7 +2,7 @@ const { awscdk, Gitpod } = require('projen');
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'clarencetw',
   authorAddress: 'mr.lin.clarence@gmail.com',
-  cdkVersion: '1.138.0',
+  cdkVersion: '1.139.0',
   defaultReleaseBranch: 'main',
   name: 'cdk-lambda-layer-zip',
   repositoryUrl: 'https://github.com/clarencetw/cdk-lambda-layer-zip.git',
